@@ -34,25 +34,39 @@ const World = () => (
           alt="map"
           className="w-full h-full object-cover"  
         />
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute bottom-20 right-20">
           <img
-            src="people-01.png"
+            src="people-01a.png"
             alt="people"
             className="w-full h-full"
           />
         </div>
-        <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute -top-10 left-20">
           <img
-            src="people-02.png"
+            src="people-02a.png"
             alt="people"
             className="w-full h-full"
           />
         </div>
-        <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute top-40 left-[45%]">
           <img
-            src="people-03.png"
+            src="people-03a.png"
             alt="people"
             className="w-full h-full"
+          />
+        </div>
+        <div className="absolute bottom-[18%] left-[15%]">
+          <img
+            src="card1.png"
+            alt="people"
+            className="w-[400px] h-[350px]"
+          />
+        </div>
+        <div className="absolute -top-[70px] right-[11%]">
+          <img
+            src="card2.png"
+            alt="people"
+            className="w-[400px] h-[350px]"
           />
         </div>
       </motion.div>
